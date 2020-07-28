@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="logo.png" rel="icon" type="image/ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Calibri;
+            font-size: 15;
+            line-height: 2;
+            background-image: url("bgnd.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        textarea {
+            resize: none;
+        }
+        
+        table {
+            padding-top: 30px;
+        }
+    </style>
+</head>
+
+<body text="white">
+    <h1>
+        <center> Register here </center>
+    </h1>
+    <form action="insert.php" method="post">
+        <table align="center" height width=0%>
+            <tr>
+                <td><b>Name:</b></td>
+                <td><input type="text" name="name" placeholder="Enter your name" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><b>Userame:</b></td>
+                <td><input type="text" name="usrname" placeholder="Enter username" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" name="pswd" placeholder="**********" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><b>Confirm Password:</b></td>
+                <td><input type="paaaword" name="fpswrd" placeholder="**********" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input type="text" name="email" placeholder="Enter your email" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><b>Mobile:</b></td>
+                <td><input type="text" name="phone" placeholder="Enter your number" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td><textarea rows="3" cols="22" name="addr"></textarea></td>
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" value="Register" name="done"></td>
+                <td><input type="reset" value="Cancel"></button>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+
+    </form>
+</body>
+
+</html>

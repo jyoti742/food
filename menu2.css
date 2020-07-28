@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+}
+
+#menu ul li {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+}
+
+#menu ul li :hover {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    width: 150px;
+    height: 50px;
+    border-radius: 25px 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    left: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #20062e;
+    font-weight: 500;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.box {
+    position: absolute;
+    top: 63%;
+    left: 63%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+}
+
+.box p {
+    padding-left: 30px;
+    padding-top: 0%;
+    color: black;
+    padding-bottom: 0%;
+}
+
+#menu ul li ul li {
+    float: none;
+    top: 40px;
+}
+
+#menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+#menu ul li:hover>ul {
+    display: block;
+}
+
+#footer {
+    background-color: #0d0218;
+    color: white;
+    height: 48%;
+}
+
+#moreaboutus h3 {
+    text-align: center;
+    color: white;
+}
+
+#moreaboutus {
+    padding: 35px;
+    margin-right: 25px;
+}
+
+#moreaboutus p {
+    padding: 25px 50px 0 50px;
+}
+
+#contactus h3 {
+    padding-left: 25px;
+}
+
+#contactus {
+    padding: 35px;
+}
+
+#logo {
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#content {
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+#underline {
+    background-color: white;
+    height: 2px;
+    width: 60px;
+    margin-left: 100px;
+}
+
+#underline1 {
+    background-color: white;
+    height: 2px;
+    width: 150px;
+    margin-left: 250px;
+}
+
+.setting {
+    margin-top: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+ul img {
+    float: left;
+    height: 120px;
+    width: 130px;
+    padding-top: 0;
+}
+
+#footer-copyright {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 100px;
+    bottom: 10%;
+}
+
+#about {
+    margin: 5% 2% 10% 2%;
+}
+
+#btn {
+    padding-left: 40%;
+    color: #0d0218;
+}
+
+#about-underlineone {
+    height: 3px;
+    width: 300px;
+    background-color: #20062e;
+}
+
+#about-underlinetwo {
+    height: 3px;
+    width: 300px;
+    background-color: #20062e;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.btn-about {
+    border-color: #20062e;
+    color: #0d0218;
+    font-weight: 700;
+    border-width: 1.5px;
+}
+
+#about-heading h3,
+#team-heading h3 {
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+#about-underline,
+#team-heading-underline {
+    height: 2px;
+    width: 50px;
+    background-color: #0d0218;
+    margin: 0 auto 30px auto;
+}
+
+#about-image {
+    width: 230px;
+    height: 230px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    float: right;
+}

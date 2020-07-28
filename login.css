@@ -1,0 +1,59 @@
+h1 {
+    color: white;
+    font-family: impact;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+body {
+    margin: 100px;
+    padding: 0;
+    text-align: center;
+    background: url(pass.jpg)no-repeat;
+    background-size: cover;
+    padding: 150px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit] {
+    width: 35%;
+    height: 16%;
+    border-radius: 25px 25px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type=password]:hover {
+    background-color: purple;
+}
+
+input[type=text]:hover {
+    background-color: purple;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: impact;
+    margin-top: 15%;
+    text-decoration: none;
+    text-align: center;
+}
